@@ -1,0 +1,78 @@
+body {
+    width: 100vw;
+    height: max-content;
+    background-color: #dce018;
+    padding: 5%;
+    color: rgba(0, 0, 0, 0.802);
+    opacity: 0.85;
+}
+
+p {
+    opacity: 0.85;
+    letter-spacing: 0.09rem;
+    font-size: .95rem;
+}
+
+.wrapper {
+    margin: 0 auto;
+    border-radius: 10px;
+    padding: 1%;
+}
+
+.blank {
+    height: 2.5rem;
+}
+
+
+.title-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: fit-content;
+    height: 15rem;
+    padding: 1%;
+}
+
+.img-wrapper {
+    height: 50rem;
+    border-radius: 5px;
+}
+
+
+.phone-text-wrapper, .modern-text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+
+}
+.name-wrapper {
+    height: fit-content;
+}
+
+.future-wrapper {
+
+}
+
+.next-wrapper {
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.next-wrapper h2 {
+    font-family:'Patrick Hand SC', cursive;
+    font-size: 3.5rem;
+}
+
+.modern-text-container p {
+    font-family: 'Patrick Hand SC', cursive;
+    font-size: 1.25rem;
+}
+
+.modern-phone-wrapper {
+    height: 15rem;
+}

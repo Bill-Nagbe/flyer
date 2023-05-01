@@ -1,0 +1,22 @@
+.photos-wrapper {
+    display: flex;
+    width: 30vw;
+    overflow: scroll;
+    justify-content: center;
+    position: relative;
+    top: 25%;
+}
+
+.photos-wrapper li {
+    list-style: none;
+}
+
+.photos-wrapper img {
+    height: 150px;
+    max-width: 100%;
+    object-fit: cover;
+    display: block;
+    border-radius: 5px;
+    border: 0.101rem solid black;
+    box-shadow: 1px 1px 1px 1px rgb(6, 6, 6);
+}
